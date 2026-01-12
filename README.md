@@ -103,7 +103,7 @@ The application uses Tailwind CSS to ensure a responsive layout that adapts to d
 
 This project utilized AI assistance for:
 - **TypeScript Type Definitions**: AI helped generate accurate and comprehensive TypeScript interfaces and types for the API responses and component props
-- **Styling Enhancements**: AI contributed to creating responsive layouts and modern UI components with Tailwind CSS
+- **Styling Enhancements**: AI contributed to improve UI components with Tailwind CSS
 
 ## 📝 License
 
