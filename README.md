@@ -69,8 +69,8 @@ src/
 │   ├── useFetchData.ts   # Data fetching hook
 │   └── useFilterData.ts  # Data filtering logic
 ├── types/            # TypeScript type definitions
-├── App.jsx           # Main application component
-└── main.jsx          # Application entry point
+├── App.tsx           # Main application component
+└── main.tsx          # Application entry point
 ```
 
 ## 🛠️ Tech Stack
