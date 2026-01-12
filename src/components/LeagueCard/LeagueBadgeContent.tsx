@@ -27,14 +27,16 @@ export default function LeagueBadgeContent({
             {badgeUrls.map((detail) => (
               <div
                 key={detail.strSeason}
-                className="flex flex-col items-center rounded-lg border border-blue-700 bg-blue-50 p-1.5 transition-all hover:border-blue-500 hover:shadow-[0_0_8px_rgba(59,130,246,0.5)]"
+                className=" text-gray-400  flex flex-col items-center rounded-lg border border-blue-700 bg-blue-50 p-1.5 transition-all hover:border-blue-500 hover:shadow-[0_0_8px_rgba(59,130,246,0.5)]"
               >
-                {detail.strBadge && (
+                {detail.strBadge ? (
                   <img
                     src={detail.strBadge}
                     alt={`${league.strLeague} ${detail.strSeason} badge`}
                     className="mb-1 h-10 w-10 object-contain drop-shadow-[0_0_4px_#3b82f6]"
                   />
+                ) : (
+                  <Award className="w-7 h-7" />
                 )}
 
                 <p className="text-center text-[0.7rem] text-slate-400">
